@@ -7,9 +7,6 @@ node_js:
   - "8"
   - "7"
   - "6"
-  - "5"
-  - "4"
-  - "4.0.0" # minimal supported version
 before_install:
   - npm config set strict-ssl false
   - npm config set registry="http://registry.npmjs.org/"
